@@ -1,0 +1,12 @@
+* {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+.list {
+    color: white;
+    background-color: gray;
+    font-size: 25px;
+}

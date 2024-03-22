@@ -1,12 +1,33 @@
 * {
     background-color: black;
+    box-sizing: border-box;
+
 }
 h1 {
     text-align: center;
     color: white;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 10px solid white;  
+    width: 250px;
+
 }
-.list {
+li{
+    text-align: center;
     color: white;
     background-color: gray;
     font-size: 25px;
+    margin: 20px;
+    margin-left: 800px;
+    margin-right: auto;
+    border: 10px solid white;
+    width: 200px;
+    
+}
+
+.list {
+    color: white;
+    
 }

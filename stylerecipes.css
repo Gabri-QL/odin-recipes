@@ -1,19 +1,36 @@
 * {
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     color: white;
+    box-sizing: border-box;
 }
 
 h1 {
     text-align: center;
+    border: 5px solid white;
+    padding: 10px;
+    margin-left: 700px;
+    margin-right: 700px;
+    background-color: black;
 }
 
 h2 {
     text-align: center;
+    border: 6px solid white;
+    padding: 10px;
+    margin-left: 700px;
+    margin-right: 700px;
+    background-color: black;
 }
 
-ul {
+ul, ol {
     text-align: center;
-    list-style-position: inside
+    list-style-position: inside;
+    border: 10px solid white;
+    padding: 20px;
+    margin-left: 700px;
+    margin-right: 700px;
+    font-size: 20px;
+    background-color: black;
 }
 
 ol {
@@ -29,4 +46,12 @@ p{
 .imagen{
     height: auto;
     width: 300px;
+    border: 10px solid white;
+    padding: 10px;
+    background-color: black;
+}
+
+li, ol li p {
+background-color: black;
+padding-bottom: 5px;
 }
